@@ -1,0 +1,9 @@
+.page {
+  margin: 0;
+  background-color: #2A2C2F;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+
