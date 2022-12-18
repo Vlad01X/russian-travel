@@ -1,0 +1,19 @@
+.header__lang-link-nav {
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__lang-link:last-child {
+  text-decoration-line: none;
+}
+
+@media screen and (max-width: 768px) {
+  .lang-link-list {
+    width: 62px;
+    height: 20px;
+  }
+
+}
+

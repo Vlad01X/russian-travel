@@ -1,0 +1,35 @@
+.place__paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 484px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__paragraphs {
+    gap: 27px;
+    width: 456px;
+    margin-left: 32px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .place__paragraphs {
+    gap: 25px;
+    width: 352px;
+    margin-left: 28px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    gap: 25px;
+    width: 288px;
+    margin: 32px 16px 0;
+  }
+
+}

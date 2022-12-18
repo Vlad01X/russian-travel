@@ -1,0 +1,8 @@
+.cover__link_overlay {
+  background-color: rgba(42, 44, 47, .3);
+  transition: background-color .2s ease;
+}
+
+.cover__link_overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
+}

@@ -1,0 +1,5 @@
+.place__content-container {
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+}
