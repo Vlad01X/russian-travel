@@ -2,20 +2,5 @@
   background-image: url(/images/cover__background.png);
   background-size: cover;
   max-width: 1184px;
-  min-height: 740px;
   width: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    padding: 90px 0 88px;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    padding: 66px 0 64px;
-  }
-
 }

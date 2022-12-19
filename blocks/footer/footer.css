@@ -18,18 +18,20 @@
 
   .footer {
     max-width: 720px;
+    padding: 88px 24px 24px;
   }
 
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: 320px;
-    max-height: 310px;
+    padding: 0;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    max-width: 320px;
+    min-height: 310px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    height: 310px;
   }
 
 }

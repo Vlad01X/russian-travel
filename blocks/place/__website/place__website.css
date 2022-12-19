@@ -5,25 +5,18 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 1280px) {
-  .place__website {
-    margin: 106px 0 0 32px;
-  }
-
-}
 
 @media screen and (max-width: 1024px) {
   .place__website {
-    margin: 46px 0 0 28px;
-    max-width: 340px;
+    gap: 12px;
   }
 
 }
 
 @media screen and (max-width: 768px) {
   .place__website {
-    margin: 32px 16px;
     max-width: 288px;
+    padding-left: 16px;
   }
 
 }
