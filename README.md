@@ -1,4 +1,4 @@
-## [Путешествие по России] https://github.com/Vlad01X/russian-travel
+## [Путешествие по России] https://vlad01x.github.io/russian-travel/index.html
 
 ---
 

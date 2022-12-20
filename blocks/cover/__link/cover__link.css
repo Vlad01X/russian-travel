@@ -4,30 +4,26 @@
   justify-content: center;
   align-items: center;
   gap: 32px;
-  max-width: 1184px;
+  width: 100%;
   min-height: 740px;
   text-decoration: none;
   color: #fff;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px){
   .cover__link {
-    min-height: 640px;
+      min-height: 640px;
+    }
   }
 
-}
-@media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1023px){
   .cover__link {
-    max-width: 768px;
-    min-height: 480px;
+      min-height: 480px;
+    }
   }
 
-}
-
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px){
   .cover__link {
-    max-width: 320px;
-    min-height: 200px;
+      min-height: 200px;
+    }
   }
-
-}
