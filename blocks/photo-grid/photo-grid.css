@@ -3,10 +3,8 @@
   padding-bottom: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   gap: 16px;
   max-width: 1184px;
-  max-height: 671px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -16,7 +14,6 @@
     grid-template-columns: repeat(3, 300px);
     gap: 14px;
     max-width: 928px;
-    max-height: 942px;
   }
 
 }
@@ -29,7 +26,6 @@
     grid-template-columns: repeat(2, 352px);
     gap: 16px;
     max-width: 720px;
-    max-height: 1664px;
   }
 
 }
@@ -40,10 +36,8 @@
     display: grid;
     justify-items: stretch;
     grid-template-columns: repeat(1, 288px);
-    grid-template-rows: repeat(12, 216px);
     gap: 12px;
     max-width: 288px;
-    max-height: 2724px;
   }
 
 }

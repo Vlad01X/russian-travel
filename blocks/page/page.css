@@ -1,3 +1,7 @@
+* {
+  box-shadow: 0 0 2px rgb(0, 255, 242);
+}
+
 .page {
   font-family: "inter", Arial, sans-serif;
   background-color: #2A2C2F;
@@ -13,21 +17,18 @@
 @media screen and (max-width: 1280px) {
   .page {
     max-width: 1024px;
-    min-width: 320px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 768px;
-    min-width: 320px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
     max-width: 320px;
-    min-width: 320px;
   }
 
 }
