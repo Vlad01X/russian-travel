@@ -2,4 +2,6 @@
   background-image: url(../../images/cover__background.png);
   background-size: cover;
   width: 100%;
+  max-width: 1184px;
+  margin: 92px 0;
 }

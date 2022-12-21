@@ -1,3 +1,7 @@
+* {
+  box-shadow: 0 0 2px rgb(0, 255, 200);
+}
+
 .page {
   font-family: "inter", Arial, sans-serif;
   background-color: #2A2C2F;
@@ -6,7 +10,6 @@
   min-width: 320px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 0 auto;
 }
 
